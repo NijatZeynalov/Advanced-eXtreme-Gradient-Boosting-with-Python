@@ -15,7 +15,7 @@ eval metric argument when fitting our XGBoost model. In addition to a test set, 
 provide the training dataset. This will provide a report on how well the model is performing on
 both training and test sets during training. 
 
-wo plots are created. The first shows the error of the XGBoost model for
+Two plots are created. The first shows the error of the XGBoost model for
 each epoch on the training and test datasets.
 
 
