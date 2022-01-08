@@ -16,21 +16,21 @@ provide the training dataset. This will provide a report on how well the model i
 both training and test sets during training. 
 
 wo plots are created. The first shows the error of the XGBoost model for
-each epoch on the training and test datasets
+each epoch on the training and test datasets.
 
 
 ![alt text](https://github.com/NijatZeynalov/Advanced-eXtreme-Gradient-Boosting-with-Python/blob/main/img/model_error.jpeg?raw=true)
 
 
-
+The XGBoost library for gradient boosting uses is designed for efficient multi-core parallel processing which allows it to efficiently use all of the CPU cores in your system when training. We can confirm that XGBoost multi-threading support is working by building a
+number of different XGBoost models, specifying the number of threads and timing how long
+it takes to build each model. The trend will both show we that multi-threading support is
+enabled and give you an indication of the effect it has when building model.
 
 ![alt text](https://github.com/NijatZeynalov/Advanced-eXtreme-Gradient-Boosting-with-Python/blob/main/img/model_performance.png?raw=true)
 
 
 
+We can see a nice trend in the decrease in execution time as the number of threads is
+increased. 
 
-
-
-
-
-Xgboost is one of the most powerful algorithms in machine learning which you should have in your toolkit.
